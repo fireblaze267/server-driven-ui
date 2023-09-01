@@ -1,8 +1,15 @@
-# React + Vite
+# Server driven UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site com intuito de demonstrar e testar como funciona o conceito de server-driven UI.
 
-Currently, two official plugins are available:
+Para baixar dependências:
+````
+npm install
+yarn install
+````
+Para executar localmente:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npm run dev
+yarn dev
+```
