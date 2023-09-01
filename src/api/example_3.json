@@ -1,0 +1,41 @@
+{
+    "app-type": "web",
+    "content": [
+      {
+        "type": "navbar",
+        "itens": [
+          { "label": "Blog" },
+          { "label": "Sobre" }
+
+        ]
+      },
+      {
+        "type": "body",
+        "links": [
+          { "label": "Tag_0" }
+        ]
+      },
+      {
+          "type": "carousel",
+          "images": [
+            { "image": "/img_4.jpg" },
+            { "image": "/img_3.jpg" }
+          ]
+        },
+       
+        {
+          "type":"footer",
+          "itens":[
+            {"label":"Blog"},
+            {"label":"Contato"},
+            {"label":"Sobre"}
+          ],
+          "social":[
+            {"logo":"fc"},
+            {"logo":"x"},
+            {"logo":"inst"}
+          ]
+        }
+    ]
+  }
+  

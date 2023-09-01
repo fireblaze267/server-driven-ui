@@ -1,0 +1,37 @@
+.body {
+  &-main {
+    background-color: #2b2b2b;
+    padding: 1rem;
+    h1 {
+      text-decoration: underline;
+      margin: 0px;
+      margin-bottom: 8px;
+    }
+  }
+  &-links {
+    display: flex;
+    gap: 1rem;
+  }
+  &-link {
+    cursor: pointer;
+    background-color: teal;
+    padding: 4px 8px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    &:hover {
+      background-color: #2b2b2b;
+      border-color: #eeeeee;
+    }
+    &:first-child {
+      border: 1px solid teal;
+      background-color: #2b2b2b;
+      color: teal;
+    }
+  }
+  &-text {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #181818;
+    margin: 12px 0px;
+  }
+}

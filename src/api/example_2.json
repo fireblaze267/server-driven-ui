@@ -1,0 +1,43 @@
+{
+    "app-type": "web",
+    "content": [
+      {
+        "type": "navbar",
+        "itens": [
+          { "label": "Home" }
+        ]
+      },
+      {
+          "type": "carousel",
+          "images": [
+            { "image": "/img_1.jpg" },
+            { "image": "/img_2.jpg" },
+            { "image": "/img_3.jpg" },
+            { "image": "img_4.jpg" }
+          ]
+        },
+        {
+            "type": "body",
+            "links": [
+              { "label": "Tag_1" },
+              { "label": "Tag_2" },
+              { "label": "Tag_3" },
+              { "label": "Tag_4" }
+            ]
+          },
+       
+        {
+          "type":"footer",
+          "itens":[
+            {"label":"Blog"},
+            {"label":"Contato"},
+            {"label":"Sobre"}
+          ],
+          "social":[
+      
+            {"logo":"fc"}
+          ]
+        }
+    ]
+  }
+  

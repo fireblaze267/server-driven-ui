@@ -1,0 +1,32 @@
+.rawData-main {
+  position: sticky;
+  top: 15px;
+  padding: 1rem;
+  background-color: #dfdfdf;
+  font-size: 12px;
+  color: #2b2b2b;
+  margin: 0.5rem;
+  border-radius: 10px;
+  height: 90vh;
+  width: fit-content;
+  overflow: auto;
+  pre {
+    font-size: 12px;
+  }
+  button {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .rawData-main {
+    position: fixed;
+    z-index: 11;
+    width: 95%;
+    label {
+      button {
+        display: none;
+      }
+    }
+  }
+}

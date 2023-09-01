@@ -1,0 +1,37 @@
+.footer {
+  &-main {
+    width: 100%;
+    display: flex;
+    background-color: teal;
+    color: #eeeeee;
+    border-radius: 2px;
+    padding: 8px 1rem;
+  }
+  &-links {
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    label {
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &::before {
+      content: "";
+      width: 2px;
+      background-color: white;
+    }
+  }
+  &-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
