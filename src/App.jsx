@@ -18,7 +18,7 @@ function App() {
 
   const [api, setApi] = useState(0);
   const [refresh, setRefresh] = useState(false);
-  const [phone, setPhone] = useState(false);
+  const [phone, setPhone] = useState(window.innerWidth <= 750 ? true : false);
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div style={phone ? { display: "none" } : null} className="app-data">
-        <RawData setApi={handleApi} data={apiResponse[api]} />
+        <RawData setApi={handleApi} num={api + 1} data={apiResponse[api]} />
       </div>
     </div>
   );
